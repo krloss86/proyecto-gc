@@ -1,10 +1,11 @@
 .bg-success {
     background-color: #28a745!important
 }
-
+ 
 @media screen and (min-width:0px) {
-    body::before  {
-        content: 'sm ≥576px';
+    .gc-navbar-brand  {
+        width: 50px !important;
+        height: auto !important;
     }
 }
 
@@ -29,9 +30,9 @@
 }
 
 @media screen and (min-width:768px) {
-    body::before  {
+    /* body::before  {
         content: 'md ≥768px';
-    }
+    } */
     .img-home-header-size {
         background-image: url(../home-md.jpg);
     }    
@@ -40,13 +41,36 @@
     }
 }
 @media screen and (min-width:992px) {
-    body::before  {
+    /* body::before  {
         content: 'lg ≥992px' ;
-    }
+    } */
     .img-home-header-size {
         background-image: url(../home-lg.jpg);
     }
     .gc-footer-card {
         width: 450px;
     }
+}
+
+/*home -> section */
+.gc-texto-normal {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+.gc-texto-resltado {
+    background-color: #3092fc!important;
+}
+
+/*footer*/
+footer {
+    background: #3c4146;
+    color:white;
+    padding: 40px;
+}
+.gc-footer-info ul{
+    list-style: none;
+}
+.gc-slogan {
+    background: white;
 }

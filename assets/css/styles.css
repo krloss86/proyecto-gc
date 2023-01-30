@@ -106,3 +106,35 @@ footer {
         background-image: url(../imgs/qs-lg.jpg);
     }
 }
+
+/*seccion proyecto*/
+.gc-img-proyecto-header {
+    background-image: url(../imgs/proyecto-header-sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.gc-img-proyecto-card {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    width: 60%;
+    text-align: center;
+    background: transparent;
+    border:none;
+    line-height: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .gc-img-proyecto-header {
+        background-image: url(../imgs/proyecto-header-md.jpg);
+    }
+}
+@media screen and (min-width:992px) {
+    .gc-img-proyecto-header {
+        background-image: url(../imgs/proyecto-header-sm.jpg);
+    }
+}

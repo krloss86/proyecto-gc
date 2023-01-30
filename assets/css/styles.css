@@ -1,0 +1,76 @@
+.bg-success {
+    background-color: #28a745!important
+}
+ 
+@media screen and (min-width:0px) {
+    .gc-navbar-brand  {
+        width: 50px !important;
+        height: auto !important;
+    }
+}
+
+.img-home-header {
+    background-image: url(../home-sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*home*/
+.gc-footer-card {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    border:none;
+}
+
+@media screen and (min-width:768px) {
+    /* body::before  {
+        content: 'md ≥768px';
+    } */
+    .img-home-header-size {
+        background-image: url(../home-md.jpg);
+    }    
+    .gc-footer-card {
+        width: 350px;
+    }
+}
+@media screen and (min-width:992px) {
+    /* body::before  {
+        content: 'lg ≥992px' ;
+    } */
+    .img-home-header-size {
+        background-image: url(../home-lg.jpg);
+    }
+    .gc-footer-card {
+        width: 450px;
+    }
+}
+
+/*home -> section */
+.gc-texto-normal {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+.gc-texto-resltado {
+    background-color: #3092fc!important;
+}
+
+/*footer*/
+footer {
+    background: #3c4146;
+    color:white;
+    padding: 40px;
+}
+.gc-footer-info ul{
+    list-style: none;
+}
+.gc-slogan {
+    background: white;
+}
